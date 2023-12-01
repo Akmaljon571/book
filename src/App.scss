@@ -14,6 +14,7 @@
 
 body {
   margin: 0;
+  background-color: #F8F8F8;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -32,6 +33,11 @@ code {
   display: none;
 }
 
-button {
-  text-transform: capitalize;
+.btn {
+  background: #6200EE !important;
+  text-transform: capitalize !important;
+
+  &:hover {
+    background: #6200EE;
+  }
 }

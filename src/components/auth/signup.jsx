@@ -44,7 +44,7 @@ function SignUp() {
                     <input type="text" placeholder='Enter your username' />
                     <img src={error} alt="Error Icon" />
                 </label>
-                <Button variant='contained'>Button</Button>
+                <Button className='btn' variant='contained'>Button</Button>
                 <p>Already signed up? <Link to={'/singin'}>Go to sign in.</Link></p>
             </form>
         </div>

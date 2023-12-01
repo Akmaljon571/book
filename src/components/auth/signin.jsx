@@ -51,7 +51,7 @@ function SignIn() {
                     <input type="password" placeholder='Enter your password' />
                     <img src={error} alt="Error Icon" />
                 </label>
-                <Button variant='contained'>Button</Button>
+                <Button className='btn' variant='contained'>Button</Button>
                 <p>Already signed up? <Link to={'/singup'}>Go to sign up.</Link></p>
             </form>
         </div>

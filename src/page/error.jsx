@@ -1,8 +1,8 @@
-import err from '../img/Frame 2.png'
+import { Error } from "../components";
 
 function ErrorPage() {
     return (
-        <img src={err} alt="Error_Photo" />
+        <Error />
     );
 }
 

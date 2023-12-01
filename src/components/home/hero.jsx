@@ -1,6 +1,14 @@
 import { Button } from "@mui/material";
+import { useContext } from "react";
+import { State } from "../../context";
 
 function Hero() {
+    const { setModal } = useContext(State)
+
+    const openModal = () => {
+        setModal({ status: "create" })
+    }
+
     return (
         <div className="hero">
             <div className="left">
@@ -13,7 +21,7 @@ function Hero() {
             </div>
             <div className="right">
                 <input type="text" placeholder="Enter your name" />
-                <Button variant="contained" className="btn">+ Create a book</Button>
+                <Button variant="contained" onClick={openModal} className="btn">+ Create a book</Button>
             </div>
         </div>
     );

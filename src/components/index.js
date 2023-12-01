@@ -5,6 +5,7 @@ import Error from "./error/error";
 import Header from "./home/header";
 import Hero from "./home/hero";
 import List from "./home/list";
+import Modal from "./home/modal";
 
 export {
     Container,
@@ -14,4 +15,5 @@ export {
     Header,
     Hero,
     List,
+    Modal,
 };

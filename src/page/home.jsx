@@ -1,4 +1,4 @@
-import { Header, Hero, List } from "../components";
+import { Header, Hero, List, Modal } from "../components";
 
 function HomePage() {
     return (
@@ -6,6 +6,7 @@ function HomePage() {
             <Header />
             <Hero />
             <List />
+            <Modal />
         </>
     );
 }

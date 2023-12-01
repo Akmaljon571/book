@@ -1,14 +1,13 @@
-import { Header, Main, Footer } from './components'
+import Routers from './routes/routes';
+import { Container } from './components';
 import './App.scss';
 
 function App() {
-    return (
-      <>
-        <Header />
-        <Main />
-        <Footer />
-      </>
-    )
+  return (
+    <Container>
+      <Routers />
+    </Container>
+  )
 }
 
 export default App;

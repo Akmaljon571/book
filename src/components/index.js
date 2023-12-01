@@ -1,6 +1,9 @@
-import Footer from "./footer/footer";
-import Header from "./header/header";
-import Main from "./main/main";
-Container
+import Container from "./container/container";
+import SignIn from "./auth/signin";
+import SignUp from "./auth/signup";
 
-export { Header, Main, Footer }
+export {
+    Container,
+    SignIn,
+    SignUp
+};
